@@ -29,7 +29,7 @@ function Hero() {
 				</div>
 				{/* Image */}
 				<div className="hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-accent">
-					<div className="absolute w-[750px] h-[750px] bottom-0 z-40 left-[5vw]">
+					<div className="absolute w-[650px] h-[650px] bottom-0 z-40 left-[8vw]">
 						<Image src="/assets/Profilen.png" alt="me" fill quality="100" priority className="object-contain"></Image>
 					</div>
 					<div className="hidden xl:flex absolute top-44 left-[6vw]">
