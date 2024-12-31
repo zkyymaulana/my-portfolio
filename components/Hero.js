@@ -8,6 +8,7 @@ import { TypeAnimation } from 'react-type-animation';
 // components
 import RotatingShape from './RotatingShape';
 import Header from './Header';
+import Stats from './Stats/Stats';
 
 function Hero() {
 	return (
@@ -25,7 +26,7 @@ function Hero() {
 						<button className="btn btn-accent mb-8">Contact me</button>
 					</ScrollLink>
 					{/* Stats */}
-					<div>stats</div>
+					<Stats />
 				</div>
 				{/* Image */}
 				<div className="hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-accent">
