@@ -33,19 +33,20 @@ function Hero() {
 					<div className="absolute w-[558px] h-[642px] bottom-0 z-40 left-[8vw]">
 						<Image src="/assets/Profilen.png" alt="me" fill quality="100" priority className="object-contain"></Image>
 					</div>
-					<div className="hidden xl:flex absolute top-44 left-[6vw]">
+					{/* Arrow shape */}
+					<div className="hidden xl:flex absolute top-44 left-[6vw]" data-scroll data-scroll-speed="0.05">
 						<Image src="/assets/arrow.svg" alt="arrow" width={160} height={160} />
 					</div>
-					{/* Shae 1 */}
-					<div className="absolute top-[640px] left-[10vw]">
+					{/* Shape 1 */}
+					<div className="absolute top-[640px] left-[10vw]" data-scroll data-scroll-speed="0.2">
 						<RotatingShape content={<Image src="/assets/shape-1.svg" width={38} height={38} alt="shape-1" />} direction={'left'} duration={6} />
 					</div>
-					{/* Shae 2 */}
-					<div className="absolute top-[260px] xl:left-[34vw]">
+					{/* Shape 2 */}
+					<div className="absolute top-[260px] xl:left-[34vw]" data-scroll data-scroll-speed="0.1">
 						<RotatingShape content={<Image src="/assets/shape-2.svg" width={28} height={28} alt="shape-2" />} direction={'right'} duration={5} />
 					</div>
-					{/* Shae 3 */}
-					<div className="absolute top-[560px] xl:left-[48vw]">
+					{/* Shape 3 */}
+					<div className="absolute top-[560px] xl:left-[48vw]" data-scroll data-scroll-speed="0.08">
 						<RotatingShape content={<Image src="/assets/shape-3.svg" width={36} height={36} alt="shape-1" />} direction={'left'} duration={7} />
 					</div>
 				</div>
